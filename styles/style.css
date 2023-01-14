@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* start header  */
+header {
+
+    background-color: #FF900E1A;
+    padding-top: 50px;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title>h3 {
+    Font-family: Work Sans;
+    font-weight: 700;
+    Font-style: Bold;
+    Font-size: 45px;
+    color: #131313;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu>a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+    font-style: Medium;
+    font-size: 18px;
+    width: 500;
+    color: #424242;
+}
+
+.brand {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.brand>h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.brand>p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+.btn-primary button {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: SemiBold;
+    padding: 20px 25px;
+    border: none;
+    color: aliceblue;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 45px;
+    margin-bottom: 85px;
+}
+
+/*-------------------------------
+             header end
+ ----------------------------------*/
+
+/* ------------------
+    Quick list start  
+---------------------*/
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quick-list-width {
+    width: 90%;
+    margin: auto;
+}
+
+.quick-list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 130px;
+}
+
+.quick-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.quick-color>h3>.quick {
+    color: #727272;
+    font-weight: 45px;
+}
+
+.quick-color>h3>.of {
+    color: #131313;
+    font-style: bold;
+    font-weight: 45px;
+}
+
+.quick-color>h3 .future {
+    color: #FF900E;
+    font-weight: 45px;
+}
+
+.quick-color>p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+/* ------------------
+feature section start 
+----------------------*/
+.feature-section {
+    display: flex;
+    position: relative;
+    gap: 54px;
+}
+
+.feature-section .feature-title {
+    border-left: 2px solid #FF900E;
+}
+
+.feature-section .feature-title h2 {
+    font-size: 45px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.feature-section p {
+    color: #727272;
+}
+
+.feature-section .feature {
+    effect:drop shadow;
+    border-radius: 30px;
+    offset:0px, 4px
+    rgba(0, 0, 0, 0.06) ;
+}
+.feature-section .feature h3{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.feature-section .feature p{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 42px;
+    padding-bottom: 30px;
+}
+.year{
+    position: absolute;
+    top: 85%;
+    right: 35%;
+}
+.year .year-border{
+    padding: 46px 46px 10px 46px;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.year .year-border{
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.year .year-border h2{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 65px;
+}
+.year .year-border p{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
