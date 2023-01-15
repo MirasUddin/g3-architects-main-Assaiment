@@ -147,6 +147,7 @@ feature section start
     display: flex;
     position: relative;
     gap: 54px;
+    margin-bottom: 130px;
 }
 
 .feature-section .feature-title {
@@ -164,42 +165,167 @@ feature section start
 }
 
 .feature-section .feature {
-    effect:drop shadow;
+    effect: drop shadow;
     border-radius: 30px;
-    offset:0px, 4px
-    rgba(0, 0, 0, 0.06) ;
+    offset: 0px, 4px rgba(0, 0, 0, 0.06);
 }
-.feature-section .feature h3{
+
+.feature-section .feature h3 {
     padding-left: 30px;
     padding-top: 30px;
 }
-.feature-section .feature p{
+
+.feature-section .feature p {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 42px;
     padding-bottom: 30px;
 }
-.year{
+
+.year {
     position: absolute;
     top: 85%;
     right: 35%;
 }
-.year .year-border{
+
+.year .year-border {
     padding: 46px 46px 10px 46px;
     background-color: #FF900E;
     border-radius: 8px;
 }
-.year .year-border{
+
+.year .year-border {
     padding-top: 16px;
     padding-bottom: 20px;
 }
-.year .year-border h2{
+
+.year .year-border h2 {
     font-weight: 700;
     color: #FFFFFF;
     font-size: 65px;
 }
-.year .year-border p{
+
+.year .year-border p {
     font-size: 30px;
     color: #FFFFFF;
     text-align: center;
 }
+
+/* ----------------------
+    feature section end
+-----------------------------  */
+
+/*-----------------
+ Some facts start 
+-------------------- */
+.some {
+    margin-bottom: 100px;
+}
+
+.some h3 {
+    font-size: 45px;
+    font-style: bold;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some p {
+    font-size: 16px;
+    color: #727272;
+}
+
+.point-width {
+    width: 90%;
+    margin: auto;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 124px;
+}
+
+.point-border {
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+
+.point .point-border img {
+    padding-top: 45px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.point .point-border h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.point .point-border p {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #727272;
+    font-style: SemiBold;
+}
+
+/* Some facts ends  */
+
+/*------------------
+     Our Sponspors start 
+------------------------------- */
+.sponspors {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.our {
+    align-items: center;
+    text-align: center;
+}
+
+.our h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24PX;
+}
+
+.our p {
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponspors-imgage {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+    margin-bottom: 130px;
+}
+.sponspors-imgage img{
+    size: 153*50px;
+}
+/* Our Sponspors ends  */
+
+/* -------------------
+    Footer start  
+-------------------*/
+footer{
+    width: 80%;
+    margin: auto;
+}
+.copyright{
+    background-color: #FFF4E7;
+    margin-bottom: 216px;
+}
+.copyright p{
+    font-size: 20px;
+    padding: 40px 0;
+    text-align: center;
+    color: #424242;
+}
+/* footer ends  */
